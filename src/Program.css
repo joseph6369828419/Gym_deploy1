@@ -1,0 +1,119 @@
+.program-child{
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    height: 300px;
+    margin-left: 4%;
+    color: white;
+    border-radius: 10px;
+}
+.program-child1{
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    height: 300px;
+    margin-left: 3%;
+    color: white;
+    border-radius: 10px;
+}
+.program-child2{
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    height: 300px;
+    margin-left: 3%;
+    color: white;
+    border-radius: 10px;
+}
+.program-child3{
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    height: 300px;
+    margin-left: 2%;
+    color: white;
+    border-radius: 10px;
+}
+.program-image{
+    height: 30px;
+    width: 30px;
+    background-color: gainsboro;
+    border-radius: 20px;
+   
+}
+.program-image1{
+    height: 30px;
+    width: 30px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+.program-image2{
+    height: 30px;
+    width: 30px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+.program-image3{
+    height: 30px;
+    width: 30px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+.program-main{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+
+}
+.program-main1{
+    text-align: center;
+    color: white;
+   position: absolute;
+   top: 15%;
+   width: 100%;
+  
+    
+}
+.program-main{
+    text-align: center;
+}
+.program-parent{
+    background-color: black;
+    height: 280vh;
+   
+}
+.program-para{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.program-letter{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.program-head{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.program-child:hover{
+    background-color: rgb(7, 253, 7);
+}
+.program-child1:hover{
+    background-color: rgb(7, 253, 7);
+}
+.program-child2:hover{
+    background-color: rgb(7, 253, 7);
+}
+.program-child3:hover{
+    background-color: rgb(7, 253, 7);
+}
+
+@media (max-width: 600px) {
+.program-main{
+display: flex;
+flex-direction: column;
+
+}
+.program-child{
+    margin-left: -8%;
+    margin-bottom: 10%;
+}
+}

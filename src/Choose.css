@@ -1,0 +1,39 @@
+.choose-main{
+    display: flex;
+    position: absolute;
+    bottom: -1%;
+    left: 38%;
+    width: 100%;
+    
+}
+.choose-image{
+    margin-left: 8%;
+    box-shadow: 2px 5px 5px 5px white;
+    height: 500px;
+    margin-top: 6%;
+    width: 80%;
+}
+.choose-child{
+    color: white;
+    
+position: absolute;
+left: -25%;
+bottom: 1%;
+}
+.choose-child1{
+    position: absolute;
+    bottom: 100px;
+    left: 15%;
+}
+
+
+.choose-parent{
+    background-color: black;
+    height: 120vh;
+}
+
+@media (max-width: 600px) {
+.choose-image{
+margin-top: 20%;
+}
+}

@@ -1,0 +1,81 @@
+.home-parent{
+    background-color: black;
+   
+    width: 100%;
+    height: 140vh;
+}
+.home-image{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.home-image1{
+    height: 96vh;
+    width: 100%;
+    box-shadow: 2px 5px 10px 10px gray;
+}
+.home-para{
+ 
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-family: sans; color: yellow;
+    margin-bottom: 40%;
+}
+.home-para1{
+
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-family: sans; color: white;
+    margin-bottom: 40%;
+   
+}
+.home-main{
+  display: flex;
+  position: absolute;
+bottom: 40%;
+left: 20%;
+}
+
+.home-child1{
+  position: absolute;
+  left: 250%;
+  bottom: -90%;
+}
+.home-image2{
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+@media (max-width: 600px) {
+
+.home-image{
+  width: 70%;
+  
+}
+.home-image1{
+  height: 60vh;
+
+}
+
+.home-para,.home-para1{
+  font-size: 1rem;
+}
+.link-head{
+  width: 150%;
+  height: 40%;
+  margin-left: -20%;
+}
+.home-image2{
+  width: 150px;
+  height: 150px;
+
+}
+.home-child1{
+  position: absolute;
+  bottom: 10%;
+  left: 150%;
+}
+
+}
